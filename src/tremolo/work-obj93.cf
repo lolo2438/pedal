@@ -1,0 +1,10 @@
+v 4
+file . "cosine_gen.vhd" "46e17a80b7c0a432885bdbf76b08753f09228524" "20230429201447.705":
+  entity cosine at 1( 0) + 0 on 65;
+  architecture test of cosine at 7( 69) + 0 on 66;
+file . "ramp_gen.vhd" "987f23cfcc6d9788875d0da97bfc0b7c3589dc25" "20230129061119.053":
+  entity ramp_gen at 1( 0) + 0 on 51;
+  architecture test of ramp_gen at 7( 71) + 0 on 52;
+file . "tremolo_test.vhd" "81b632438054aae1bfb04f1fecc76d0b707e0f56" "20230129051439.591":
+  entity tremolo_test at 1( 0) + 0 on 19;
+  architecture test of tremolo_test at 7( 75) + 0 on 20;

@@ -1,0 +1,28 @@
+{
+    "options": {
+        "ghdl_analysis": [
+            "--std=08",
+            "-P/home/laurent/Development/pedal/src/tb/vunit_out/ghdl/libraries/riscv/",
+            "-P/home/laurent/Development/pedal/src/tb/vunit_out/ghdl/libraries/vunit_lib/",
+            "-P/home/laurent/Development/pedal/src/tb/vunit_out/ghdl/libraries/osvvm/"
+        ]
+    },
+    "files": [
+        { "file": "/home/laurent/Development/pedal/src/pkg/types_pkg.vhd",              "language": "vhdl" },
+        { "file": "/home/laurent/Development/pedal/src/pkg/tb_pkg.vhd",                 "language": "vhdl" },
+
+        { "file": "/home/laurent/Development/pedal/src/i2s/i2s_rx.vhd",                 "language": "vhdl" },
+        { "file": "/home/laurent/Development/pedal/src/i2s/i2s_tx.vhd",                 "language": "vhdl" },
+        { "file": "/home/laurent/Development/pedal/src/i2s/i2s_ctrl.vhd",               "language": "vhdl" },
+
+        { "file": "/home/laurent/Development/pedal/src/dsp/mac.vhd",                    "language": "vhdl" },
+
+
+        { "file": "/home/laurent/Development/pedal/src/cpu/stack.vhd",                  "language": "vhdl" },
+        { "file": "/home/laurent/Development/pedal/src/cpu/alu.vhd",                    "language": "vhdl" },
+        { "file": "/home/laurent/Development/pedal/src/cpu/mem.vhd",                    "language": "vhdl" },
+        { "file": "/home/laurent/Development/pedal/src/cpu/reg.vhd",                    "language": "vhdl" },
+        { "file": "/home/laurent/Development/pedal/src/cpu/decoder.vhd",                "language": "vhdl" },
+        { "file": "/home/laurent/Development/pedal/src/cpu/cpu.vhd",                    "language": "vhdl" }
+    ]
+}
